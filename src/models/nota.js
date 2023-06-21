@@ -5,6 +5,8 @@ class Nota {
         this.a2 = a2;
         this.a3 = a3;
     }
+    
+    //Cálculo para média
 
     mediaFinal() {
         return Math.max(
@@ -13,7 +15,9 @@ class Nota {
             0.4 * this.a3 + 0.6 * this.a2
         );
     }
-
+    
+    //Condicional para aplicar o valor da média
+    
     mediaCA() {
         const media = this.mediaFinal();
 
